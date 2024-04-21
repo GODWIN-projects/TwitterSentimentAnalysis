@@ -1,3 +1,4 @@
 streamlit==1.33.0
 nltk==3.8.1
 stop-words==2018.7.23
+scikit-learn==1.4.2
