@@ -19,7 +19,7 @@ model = pickle.load(open(f"{working_dir}/random_forest.pkl","rb"))
 
 def prediction(text):
     wnl = WordNetLemmatizer()
-    lemmatized_txt = re.sub("[^a-zA-Z]"," ",txt)
+    lemmatized_txt = re.sub("[^a-zA-Z]"," ",text)
     lemmatized_txt = lemmatized_txt.lower()
     lemmatized_txt = lemmatized_txt.split()
     lemmatized_txt = [wnl.lemmatize(word) for word in lemmatized_txt if not word in stopwords.words("english")]
