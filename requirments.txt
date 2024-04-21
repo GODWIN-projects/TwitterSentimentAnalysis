@@ -1,0 +1,4 @@
+stop-words==2018.7.23
+nltk==3.2.4
+pickleshare @ file:///home/conda/feedstock_root/build_artifacts/pickleshare_1602536217715/work
+re==2.2.1
