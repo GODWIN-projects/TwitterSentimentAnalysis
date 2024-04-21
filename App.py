@@ -29,9 +29,10 @@ def prediction(text):
     res = model.predict(vectorized_txt)
 
     if res == 1:
-        print("positive text")
+        return "positive"
     else:
-        print("negative text")
+        return "negative"
+
 
 
 def main():
