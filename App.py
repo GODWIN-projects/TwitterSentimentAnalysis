@@ -41,7 +41,7 @@ def main():
             <h1 style="color:black;text-align:center;">
             Tweet Sentiment Analysis
             </h1></div>"""
-    text = st.text_area(placeholder="Enter the text from the tweet", height=250)
+    text = st.text_area(label="tweet-text",placeholder="Enter the text from the tweet", height=250)
     result = ""
 
     if st.button("Predict"):
