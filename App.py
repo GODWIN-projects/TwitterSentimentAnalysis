@@ -1,10 +1,10 @@
 import pickle
 import streamlit as st
+import nltk
 from nltk.corpus import stopwords
 from nltk.stem import WordNetLemmatizer
 import re
 import os
-import nltk
 nltk.download("stopwords")
 nltk.download("wordnet")
 nltk.download("omw-1.4")
