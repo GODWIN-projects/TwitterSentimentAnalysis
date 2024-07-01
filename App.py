@@ -48,7 +48,7 @@ def main():
     if st.button("Predict"):
         result = prediction(text)
         if result == "negative":
-            st.failure("Your tweet is negative")
+            st.error("Your tweet is negative")
         else:
             st.success("Your tweet is positive")
 
