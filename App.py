@@ -37,11 +37,7 @@ def prediction(text):
 
 def main():
 
-    html_temp = """
-            <div style = "background-color:yellow;padding:13px">
-            <h1 style="color:black;text-align:center;">
-            Tweet Sentiment Analysis
-            </h1></div>"""
+    
     text = st.text_area(label="Sentiment Analysis",placeholder="Enter the text from the tweet", height=250)
     result = ""
 
